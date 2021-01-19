@@ -2,16 +2,11 @@ from PIL import Image, ImageOps
 import os,time, glob
 from instabot import Bot
 
-# put your filepath here
-filepath = r"C:\instagramupload\pythonupload.jpg"
-#image caption
-caption = 'Math majors need to understand'
-#image hashtags
-hashtags = '#Python #programming #programmerhumor #memes'
-#your instagram username
-instausername = 'instausername'
-#your instagram password
-instapassword = 'instapassword'
+filepath = r"C:\myfilepath"
+caption = 'Put Caption Here'
+hashtags = '#hashtag1 #hashtag2 #hashtag3'
+instausername = 'instagramusername'
+instapassword = 'instagrampassword'
 
 def resizeimg(func):
     def wrapper():
